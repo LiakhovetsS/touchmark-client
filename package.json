@@ -1,0 +1,43 @@
+{
+  "name": "touchmark-client",
+  "version": "1.0.0",
+  "description": "🔐 Бібліотека для створення безпечних цифрових підписів HTTP запитів",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiakhovetsS/touchmark-client.git"
+  },
+  "author": "Liakhovets Stas lyakhovetss@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "signature",
+    "fingerprint",
+    "hmac",
+    "sha256",
+    "security",
+    "authentication",
+    "typescript",
+    "http",
+    "api",
+    "crypto",
+    "digital-signature"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/LiakhovetsS/touchmark-client/issues"
+  },
+  "homepage": "https://github.com/LiakhovetsS/touchmark-client#readme"
+}
