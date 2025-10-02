@@ -157,6 +157,13 @@ Generates a digital signature for HTTP requests.
 
 **Throws:** Error if `appSignature` is not provided
 
+## 🛡️ Signature Validation (Server Side)
+
+To verify and validate signatures on your server, use the [touchmark-server](https://www.npmjs.com/package/touchmark-server) library.
+
+> This library checks HTTP request signatures, protects your API from unauthorized requests, timing attacks, replay attacks, and duplicate requests.
+
+
 ## 🔒 Security
 
 ⚠️ **Important:**
@@ -401,6 +408,13 @@ await apiService.createUser({ name: 'Іван', email: 'ivan@example.com' });
 **Повертає:** `string` - Base64 закодований підпис
 
 **Викидає помилку:** якщо `appSignature` не надано
+
+## 🛡️ Валідація підпису (на сервері)
+
+Для перевірки та валідації підпису на сервері використовуйте бібліотеку [touchmark-server](https://www.npmjs.com/package/touchmark-server).
+
+> Вона перевіряє цифрові підписи HTTP-запитів, захищає API від несанкціонованих запитів, таймінг-атак, повторного використання підпису та дублюваних запитів.
+
 
 ## 🔒 Безпека
 
