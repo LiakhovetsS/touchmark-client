@@ -1,6 +1,6 @@
 {
   "name": "touchmark-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🔐 Бібліотека для створення безпечних цифрових підписів HTTP запитів",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
